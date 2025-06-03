@@ -1,0 +1,21 @@
+start
+
+new temp number
+set temp 0
+new i number
+set i 0
+
+loop multiply (2 > i)
+    set temp temp + 2
+    set i i + 1
+end multiply
+
+
+new x number
+set x 2 + temp
+log number x
+
+delete temp
+delete i
+delete x
+finish
