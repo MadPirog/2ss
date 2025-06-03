@@ -1,0 +1,7 @@
+start
+new name string
+set name "Алексей"
+new age number
+set age 30
+log string "Привет! Меня зовут " >> name >> ", мне " >> age >> " лет."
+finish
